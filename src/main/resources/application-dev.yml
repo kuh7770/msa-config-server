@@ -1,10 +1,14 @@
-server:
-  port: 4670
-spring:
-  profiles:
-    active: dev
-  cloud:
-    config:
-      server:
-        git:
-          uri: https://github.com/kuh7770/msa-config
+#server:
+#  port: 4670
+#spring:
+#  profiles: dev
+#  cloud:
+#    config:
+#      server:
+#        git:
+#          uri: https://github.com/kuh7770/msa-config
+#  rabbitmq:
+#    host: 61.82.137.71
+#    port: 5672
+#    username: admin
+#    password: 123456
