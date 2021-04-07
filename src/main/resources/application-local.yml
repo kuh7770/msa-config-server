@@ -1,16 +1,8 @@
 server:
   port: 4670
 spring:
-  devtools:    add-properties: true
-  profiles: local
   cloud:
     config:
       server:
         git:
           uri: file://C:\Users\kuh77\git\Msa-config
-#  rabbitmq:
-#    host: localhost
-#    port: 5672
-#    username: admin
-#    password: 123456
-#    
